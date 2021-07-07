@@ -37,6 +37,6 @@ class Ui_Dialog(object):
         _translate = QtCore.QCoreApplication.translate
         Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
         self.label.setText(_translate("Dialog", "考虑目标区域是一个经纬度范围。经度75°E-135°E，纬度范围0°N-55°N。则对该区域，计算如下内容：\n"
-"（1）计算每个时刻的瞬时覆盖率，并将结果绘制成曲线。\n"
-""))
+                                                "（1）计算每个时刻的瞬时覆盖率，并将结果绘制成曲线。\n"
+                                                ""))  # 更改1
         self.pushButton.setText(_translate("Dialog", "开始计算"))
